@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChessBoard Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="chessboard"
+  >
+    <div
+      class="row"
+    >
+      <button
+        class=""
+        data-testid="tile-0-0"
+      >
+        Tile 0,0
+      </button>
+      <button
+        class=""
+        data-testid="tile-0-1"
+      >
+        Tile 0,1
+      </button>
+      <button
+        class=""
+        data-testid="tile-0-2"
+      >
+        Tile 0,2
+      </button>
+    </div>
+    <div
+      class="row"
+    >
+      <button
+        class=""
+        data-testid="tile-1-0"
+      >
+        Tile 1,0
+      </button>
+      <button
+        class="selected"
+        data-testid="tile-1-1"
+      >
+        Tile 1,1
+      </button>
+      <button
+        class=""
+        data-testid="tile-1-2"
+      >
+        Tile 1,2
+      </button>
+    </div>
+    <div
+      class="row"
+    >
+      <button
+        class=""
+        data-testid="tile-2-0"
+      >
+        Tile 2,0
+      </button>
+      <button
+        class=""
+        data-testid="tile-2-1"
+      >
+        Tile 2,1
+      </button>
+      <button
+        class=""
+        data-testid="tile-2-2"
+      >
+        Tile 2,2
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

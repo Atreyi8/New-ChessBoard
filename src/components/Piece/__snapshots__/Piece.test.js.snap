@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Piece Component renders correctly with an empty symbol 1`] = `
+<span
+  class="piece black"
+/>
+`;
+
+exports[`Piece Component renders correctly with given props 1`] = `
+<span
+  class="piece white"
+>
+  ♔
+</span>
+`;

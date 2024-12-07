@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders ChessBoard component and matches snapshot 1`] = `
+<div>
+  ChessBoard Component
+</div>
+`;
+
+exports[`App Component renders correctly and matches the snapshot 1`] = `
+<DocumentFragment>
+  <h1>
+    Chessboard
+  </h1>
+  <div>
+    ChessBoard Component
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tile Component Snapshot matches snapshot for black-tile 1`] = `
+<DocumentFragment>
+  <div
+    class="tile black-tile "
+    data-col="B"
+    data-row="8"
+  >
+    <span
+      class="piece white"
+    >
+      P
+    </span>
+    <div
+      class="hover-label"
+    >
+      B8
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tile Component Snapshot matches snapshot for white-tile 1`] = `
+<DocumentFragment>
+  <div
+    class="tile white-tile "
+    data-col="A"
+    data-row="8"
+  >
+    <span
+      class="piece white"
+    >
+      P
+    </span>
+    <div
+      class="hover-label"
+    >
+      A8
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tile Component Snapshot matches snapshot when selected 1`] = `
+<DocumentFragment>
+  <div
+    class="tile white-tile selected-tile"
+    data-col="A"
+    data-row="8"
+  >
+    <span
+      class="piece white"
+    >
+      P
+    </span>
+    <div
+      class="hover-label"
+    >
+      A8
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tile Component Snapshot matches snapshot with custom hover label 1`] = `
+<DocumentFragment>
+  <div
+    class="tile black-tile "
+    data-col="D"
+    data-row="6"
+  >
+    <span
+      class="piece white"
+    >
+      P
+    </span>
+    <div
+      class="hover-label"
+    >
+      D6
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tile Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="tile white-tile "
+    data-col="B"
+    data-row="7"
+  >
+    <div
+      data-testid="piece"
+    >
+      P (white)
+    </div>
+    <div
+      class="hover-label"
+    >
+      B7
+    </div>
+  </div>
+</DocumentFragment>
+`;
