@@ -23,7 +23,8 @@ describe("ChessBoard Component", () => {
         ["", "", ""],
         ["", "", ""],
       ],
-      selectedTile: [{ row: 1, col: 1 }],
+      selectedTile: { row: 1, col: 1 }, 
+      validMoves: [],
     },
     dispatch: mockDispatch,
   };

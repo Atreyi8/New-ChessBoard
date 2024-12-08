@@ -33,9 +33,13 @@
 }
 
 .white-tile {
-  background-color: #eee;
+  background-color: #b2afaf;
 }
 
 .black-tile {
   background-color: #555;
+}
+
+.valid-move {
+  background-color: lightgreen; 
 }
